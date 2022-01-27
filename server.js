@@ -9,7 +9,7 @@ app.use(express.static('public'))
 // api routes 
 app.get('/api/notes', (req,res) => {
     const notes = db.getNotes()
-    res.send("Notesmon")
+    res.json(notes)
 })
 
 app.post('/api/notes', (req,res) => {
