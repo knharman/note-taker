@@ -7,6 +7,7 @@
   * [Usage](#usage)
   * [Contributions](#contributions)
   * [Tests](#tests)
+  * [Screenshot](#screenshot)
   * [Questions](#questions)
 
   ### Installation
@@ -17,6 +18,8 @@
   Contributions coming soon!
   ### Tests
   Tests coming soon!
+  ### Screenshot
+  ![Screenshot](./assets/img/screenshot.png)
   ### Questions
   If you have additional questions, you can contact me here: knharman@gmail.com
   Check out my GitHub: [knharman](https://github.com/knharman)
