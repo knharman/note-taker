@@ -5,7 +5,7 @@ const db = require('./db')
 const port = 3000
 
 app.use(express.static('public'))
-app.use(express.json());
+app.use(express.json())
 
 // api routes 
 app.get('/api/notes', (req,res) => {
@@ -14,8 +14,13 @@ app.get('/api/notes', (req,res) => {
 })
 
 app.post('/api/notes', (req,res) => {
-    db.add(req.body)
-    res.send("Notesmon")
+    const newNote = db.addNote(req.body)
+    res.json(newNote)
+})
+
+app.delete('/api/notes/:id', (req,res) => {
+    db.deleteNote(req.params.id)
+    res.end()
 })
 
 app.get('/notes', (req, res) => {
