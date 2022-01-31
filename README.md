@@ -10,9 +10,9 @@
   * [Questions](#questions)
 
   ### Installation
-  From the root of your project in the command line run the command 'npm init' and answer the series of prompts. Next, run the command 'npm install express.' (You must have Node.js installed on your computer to run these commands.)
+  From the root of your project in the command line run the command 'npm install'. (You must have Node.js installed on your computer to run these commands.)
   ### Usage
-  Activate the server by running the command 'node server.js'
+  Activate the server by running the command 'npm start' in the command line. 
   ### Contributions
   Contributions coming soon!
   ### Tests
